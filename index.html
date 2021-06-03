@@ -1,39 +1,215 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Seung Wan's home</title>
-</head>
-<body>
-  <img src="media/avatar.jpg" alt="img" width="10%">
-  <ul>
-    <li>
-      <a href="Index.html">Home
-      </a>
-    </li>
-    <li>
-      <a href="tags.html">Tags
-      </a>
-    </li>
-    <li>Past work</li>
-  </ul>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <h1>About</h1>
-  <p>
-    Hello! I am Seung Wan Ha, a first-year Ph.D. Student in Health Informatics at Indiana University Bloomington, USA, advised by Dr. Christina Chung at ProHealth lab. My research focuses on Health Informatics, Human-Computer Interaction (HCI), and CSCW.
-  </p>
-  <p>
-    As a researcher, I am interested in new ways that allow people to extend one’s range of understanding. My goal is to research these ways to foster better human-to-others (such as robots, virtual avatars, and other people) understanding and to enhance the relationship between humans and others. I am also interested in new media that allows one to extend and assist one’s experience. With new interactions and technology, this media enables people to create their own experience easily by using assistive tools with multi-modal interactions.
-  </p>
-  <p>
-    <strong>Interest:</strong> <u>Personal Informatics</u>, HCI, CSCW
-  </p>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
-    <h1>Publication</h1>
-    <h2>Health supportive tools</h2>
-    <h2>Interacitve tools</h2>
+    <title>Seung Wan Ha</title>
+  </head>
+  <body>
+    <!-- nav bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top" style="background-color: rgba(255,255,255,0.3)">
+      <div class="container">
+        <a class="navbar-brand fs-3 fw-bold" href="#">Seung Wan Ha</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://sites.google.com/view/seung-wan-ha/projects?authuser=0">Past work</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- main pic-->
+    <div class="container">
+      <div class="text-center mt-5">
+        <img src="asset/media/avatar.jpg" class="rounded-circle" alt="seungwanha's Photo">
+        <p class="mt-3 fw-bold">First-year Ph.D. Student</p>
+        <p><a href="https://www.indiana.edu/" class="text-decoration-none link-danger fw-bold">Indiana University-Bloomington</a></p>
+        <p class="fw-bold">Myles Brand Hall #255, 901 E 10th Street, Bloomington, IN 47408, USA</p>
+      </div>
+        <ul class="list-group list-group-horizontal justify-content-center mb-5">
+          <li class="list-group-item" style="border:none"><a href="mailto:swha@iu.edu" target="_blank"><img src="https://img.icons8.com/pastel-glyph/48/000000/new-post--v2.png"/></a></li>
+          <li class="list-group-item" style="border:none"><a href="https://twitter.com/hsw_ha"><img src="https://img.icons8.com/fluent-systems-regular/48/000000/twitter.png"/></a></li>
+          <li class="list-group-item" style="border:none"><a href="https://www.linkedin.com/in/haseungwan/"><img src="https://img.icons8.com/material-outlined/48/000000/linkedin--v1.png"/></a></li>
+            <li class="list-group-item" style="border:none"><a href="https://scholar.google.com/citations?user=2L3rQjMAAAAJ&hl=en"><img src="https://img.icons8.com/material-sharp/48/000000/google-scholar.png"/></a></li>
+          <li class="list-group-item" style="border:none"><a href="asset/cv/swha_CV.pdf" target="_blank"><img width = "48px" src="asset/media/cv.svg" img size = 48px></a></li>
+        </ul>
+    </div>
+    <!-- main info-->
+    <div class="about">
+      <div class="container">
+        <div class="row">
+          <p>
+            Hello, I am a first-year Ph.D. Student in <a href="https://prohealth.luddy.indiana.edu/" class="text-decoration-none link-danger">Health Informatics</a> at Indiana University Bloomington, USA, working with <a href="http://homes.sice.indiana.edu/cfchung/" class="text-decoration-none link-danger">Dr. Christina Chung</a>. My research focuses on Health Informatics, Human-Computer Interaction (HCI), and CSCW.
+          </p>
+          <p>
+            As a researcher, I am interested in new ways that allow people to extend one’s range of understanding. My goal is to research these ways to foster better human-to-others (such as robots, virtual avatars, and other people) understanding and to enhance the relationship between humans and others. I am also interested in new media that allows one to extend and assist one’s experience. With new interactions and technology, this media enables people to create their own experience easily byusing assistive tools with multi-modal interactions.
+          </p>
+          <p>
+            <strong>Interest:</strong> Personal Informatics, HCI, CSCW
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Research -->
 
-</body>
+    <div class="research m-5">
+      <div class="container">
+        <h3 class="fw-bold"> <div class="spinner-grow spinner-grow-sm text-secondary mb-1" role="status"></div>
+          Research
+        </h3>
+        <div class="row row-cols-1 row-cols-md-3 g-4 m-3">
+          <div class="col-xl-3">
+            <div class="card h-100">
+              <img src="asset/media/Hs_tools.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title fw-bold">Mental Health supportive tools</h6>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated in 2020</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3">
+            <div class="card h-100">
+              <img src="asset/media/It_tools.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title fw-bold">Interactive media</h6>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated in 2019</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3">
+            <div class="card h-100">
+              <img src="asset/media/research.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title fw-bold"><div class="spinner-border spinner-border-sm" role="status"></div> More research is coming soon</h6>
+                <p class="card-text">To see the previous works, press "Past work" on the top</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated in 2021</small>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- pub-->
+    <div class="publication m-5">
+      <div class="container">
+        <h3 class="fw-bold"> <div class="spinner-grow spinner-grow-sm text-secondary mb-1" role="status"></div>
+          Publication
+        </h3>
+        <h4> Journal Articles</h4>
+        <ul class="list-group list-group-numbered">
+          <li class="list-group-item d-flex justify-content-between align-items-start" style="border:none">
+            <div class="ms-2 me-auto">
+              <div class="fw-bold">Designing a Scalable, Accessible, and Effective Mobile App Based Solution for Common Mental Health Problems
+                <a herf="#" class="badge bg-primary m-1 text-decoration-none">Mental Health supportive tools</a>
+              </div>
+              Seung Wan Ha & Jusub Kim <br>
+              International Journal of Human–Computer Interaction, 36(14), 2020
+              <a href="asset\publications\HIHC2020_crowdsourcing_mental_health.pdf" class="badge bg-danger rounded-pill text-decoration-none" target="_blank">PDF</a>
+              <a href="https://doi.org/10.1080/10447318.2020.1750792" class="badge bg-success rounded-pill text-decoration-none" target="_blank">DOI</a>
+            </div>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-start" style="border:none">
+            <div class="ms-2 me-auto">
+              <div class="fw-bold">I-Portrait: An Interactive Photograph System for Enhancing Social Presence
+                <a herf="#" class="badge bg-primary m-1 text-decoration-none">Interactive Media</a>
+              </div>
+            Seung Wan Ha & Jusub Kim <br>
+            International Journal of Human–Computer Interaction, 35(20), 2019
+            <a href="asset\publications\HIHC2019_Interactive_photography.pdf" class="badge bg-danger rounded-pill text-decoration-none" target="_blank">PDF</a>
+            <a href="https://doi.org/10.1080/10447318.2019.1580858" class="badge bg-success rounded-pill text-decoration-none" target="_blank">DOI</a>
+            </div>
+
+            <li class="list-group-item d-flex justify-content-between align-items-start" style="border:none">
+              <div class="ms-2 me-auto">
+              <div class="fw-bold">A Comparative Study of Immersiveness in < Monet's Impressionism Exhibition > and < Van Gogh Inside: Festival of Light and Music > through an Empirical Approach
+                <a herf="#" class="badge bg-primary m-1 text-decoration-none">Interactive Media</a>
+              </div>
+              Boa Rhee, Seung Wan Ha, & Jane Seo <br>
+              Journal of Korea Multimedia Society, 20(4), 686-695, 2017
+              <a href="http://koreascience.or.kr/article/JAKO201718555882187.pdf" class="badge bg-danger rounded-pill text-decoration-none" target="_blank">PDF</a>
+              <a href="https://doi.org/10.9717/kmms.2017.20.4.686" class="badge bg-success rounded-pill text-decoration-none" target="_blank">DOI</a>
+              </div>
+
+            </li>
+        </ul>
+        <!-- conference-->
+        <h4>Conference Proceedings</h4>
+        <ul class="list-group list-group-numbered">
+          <li class="list-group-item d-flex justify-content-between align-items-start" style="border:none">
+            <div class="ms-2 me-auto">
+              <div class="fw-bold">Interactive Photograph that enhances emotional bonding
+                <a herf="#" class="badge bg-primary m-1 text-decoration-none">Interactive Media</a>
+              </div>
+              Seung Wan Ha & Jusub Kim <br>
+              Proceedings of HCI Korea, 712-715, 2018
+              <a href="https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE07401493#" class="badge bg-success rounded-pill text-decoration-none" target="_blank">DOI</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+      <div class="patent">
+        <div class="container">
+          <h3 class="fw-bold"> <div class="spinner-grow spinner-grow-sm text-secondary mb-1" role="status"></div>
+            Patent
+          </h3>
+          <ul class="list-group list-group-numbered">
+            <li class="list-group-item d-flex justify-content-between align-items-start" style="border:none">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">Method For Interactive Picture Service
+                  <a herf="#" class="badge bg-primary m-1 text-decoration-none">Interactive Media</a>
+                </div>
+                Seung Wan Ha & Jusub Kim <br>
+                Korean Patent 10-2018-0045770
+                <a href="https://doi.org/10.8080/1020180045770?urlappend=en" class="badge bg-success rounded-pill text-decoration-none" target="_blank">DOI</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+
+
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+    <div>
+      <footer class="bg-light text-center text-lg-start">
+      <!-- Copyright -->
+        <div class="text-center p-4 bg-white">
+           Copyright © 2021 by Seung Wan Ha
+        </div>
+      <!-- Copyright -->
+      </footer>
+    </div>
+  </body>
 </html>
